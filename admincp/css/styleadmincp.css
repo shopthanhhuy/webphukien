@@ -1,0 +1,24 @@
+.admincp_list{
+padding: 0;
+margin: 0;
+list-style: none;
+text-decoration: none;
+}
+ul.admincp_list li{
+    float: left;
+    margin: 5px;
+}
+h3.title_admin{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+.wrapper {
+    border: solid 1px black;
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
