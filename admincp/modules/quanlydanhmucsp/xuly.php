@@ -7,8 +7,7 @@ if(isset($_POST['themdanhmuc'])){
     mysqli_query($mysqli,$sql_them);
     header('location:../../index.php?action=quanlydanhmucsanpham');
 }elseif(isset($_POST['suadanhmuc'])){
-
-}elseif(isset($_GET['query'])=='xoa'){
+}else{
     $id=$_GET['iddanhmuc'];
     $sql_xoa="DELETE FROM tbl_danhmuc WHERE id_danhmuc='".$id."'";
     mysqli_query($mysqli,$sql_xoa);

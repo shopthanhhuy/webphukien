@@ -18,7 +18,7 @@
                 <td><?php echo $i ?></td>
                 <td><?php echo $row['tendanhmuc'] ?></td>
                 <td>
-                    <a href="modules/quanlydanhmucsanpham/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc'] ?>">Xoá</a> | <a href="action=quanlydanhmucsanpham&query=sua">
+                    <a href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc'] ?>">Xoá</a> | <a href="action=quanlydanhmucsanpham&query=sua">
                         Sửa</a>
                 </td>
             </tr>
